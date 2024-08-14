@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+// 1. Vendors
+@import 'vendors/normalize';
+
+// 2. Base stuff
+@import 'base/base';
+@import 'base/fonts';
+
+// 3. Layout-related sections
+@import 'layout/header';
+
+// 4. Components
+
+// 5. Pages
+@import 'pages/home';
+
