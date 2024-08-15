@@ -1,3 +1,49 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+.services-info {
+  padding: 140px 0;
+  .svg-container {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(47, 46, 48, 0.3);
+    position: relative;
+    &::before {
+      content: "";
+      width: 54px;
+      height: 54px;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 1); /* Inner circle (58x58px) */
+      border-radius: 50%;
+      // z-index: 99;
+    }
+    svg {
+      color: #fafafa;
+      z-index: 99;
+    }
+  }
+  .text-container {
+    margin-top: 24px;
+    color: #000;
+    h3 {
+      @extend .poppins-semibold;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin: 0;
+      margin-bottom: 8px;
+    }
+    p {
+      @extend .poppins-regular;
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .services-info {
+    services-info-container {
+      margin-bottom: 1.5rem;
+    }
+  }
+}

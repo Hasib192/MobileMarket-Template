@@ -422,7 +422,7 @@ p {
 }
 
 /* line 28, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
-.poppins-regular, .header .top-section, .header nav .menu, .header nav .search-bar input, .header nav .user-action a.user-action-item .circular-badge {
+.poppins-regular, .header .top-section, .header nav .menu, .header nav .search-bar input, .header nav .user-action a.user-action-item .circular-badge, .services-info .text-container p {
   font-family: "Poppins", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -436,7 +436,7 @@ p {
 }
 
 /* line 40, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
-.poppins-semibold, .header .top-section .heading-section p a {
+.poppins-semibold, .header .top-section .heading-section p a, .services-info .text-container h3 {
   font-family: "Poppins", system-ui;
   font-weight: 600;
   font-style: normal;
@@ -881,6 +881,63 @@ p {
   background-color: #d9d9d9;
   opacity: 0.3;
   margin-top: 16px;
+}
+
+/* line 4, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.services-info {
+  padding: 140px 0;
+}
+
+/* line 6, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.services-info .svg-container {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(47, 46, 48, 0.3);
+  position: relative;
+}
+
+/* line 11, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.services-info .svg-container::before {
+  content: "";
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  background-color: black;
+  /* Inner circle (58x58px) */
+  border-radius: 50%;
+}
+
+/* line 20, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.services-info .svg-container svg {
+  color: #fafafa;
+  z-index: 99;
+}
+
+/* line 25, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.services-info .text-container {
+  margin-top: 24px;
+  color: #000;
+}
+
+/* line 28, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.services-info .text-container h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+/* line 35, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.services-info .text-container p {
+  font-size: 14px;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  /* line 45, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+  .services-info services-info-container {
+    margin-bottom: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
