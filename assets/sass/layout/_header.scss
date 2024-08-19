@@ -35,12 +35,6 @@
   nav {
     padding: 0;
     margin-top: 40px;
-    .logo {
-      a {
-        @extend .inter-bold;
-        font-size: 24px;
-      }
-    }
     .menu {
       @extend .poppins-regular;
       font-size: 16px;
