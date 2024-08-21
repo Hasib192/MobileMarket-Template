@@ -422,14 +422,15 @@ p {
 }
 
 /* line 28, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
-.poppins-regular, .header .top-section, .header nav .menu, .header nav .search-bar input, .header nav .user-action a.user-action-item .circular-badge, .footer .promotion-container p, .footer .promotion-container .input-container input[type="text"], .footer .footer-info p, .footer .footer-menu ul li, .copyright-section .copyright-text, .services-info .text-container p {
+.poppins-regular, .header .top-section, .header nav .menu, .header nav .search-bar input, .header nav .user-action a.user-action-item .circular-badge, .footer .promotion-container p, .footer .promotion-container .input-container input[type="text"], .footer .footer-info p, .footer .footer-menu ul li, .copyright-section .copyright-text, .authentication-form .form-wrapper p.authentication-subtitle, .authentication-form .form-wrapper form .form-input-field input[type="text"],
+.authentication-form .form-wrapper form .form-input-field input[type="password"], .authentication-form .form-wrapper .form-link .login-link p.login-text, .services-info .text-container p {
   font-family: "Poppins", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
 /* line 34, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
-.poppins-medium, .footer .newsletter-container a, .footer h3, .footer .footer-links p {
+.poppins-medium, .footer .newsletter-container a, .footer h3, .footer .footer-links p, .authentication-form .form-wrapper .authentication-btn, .authentication-form .form-wrapper .form-link .google-btn, .authentication-form .form-wrapper .form-link .login-link p.login-text a.login-button {
   font-family: "Poppins", system-ui;
   font-weight: 500;
   font-style: normal;
@@ -559,7 +560,7 @@ p {
 }
 
 /* line 146, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
-.inter-medium {
+.inter-medium, .authentication-form .form-wrapper h4.authentication-title {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-optical-sizing: auto;
@@ -1098,6 +1099,129 @@ p {
 /* line 2, ../../Desktop/MobileMarket-Template/assets/sass/components/_logo.scss */
 .logo a {
   font-size: 24px;
+}
+
+/* line 4, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form {
+  padding-top: 60px;
+  padding-bottom: 140px;
+}
+
+/* line 7, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-left-side-img {
+  background-image: url("../images/authentication-side-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 15, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper {
+  padding: 125.5px 0;
+  width: 370px;
+}
+
+/* line 18, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper h4.authentication-title {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+/* line 23, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper p.authentication-subtitle {
+  font-size: 16px;
+  margin-bottom: 48px;
+}
+
+/* line 29, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper form .form-input-field {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+/* line 32, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper form .form-input-field input[type="text"],
+.authentication-form .form-wrapper form .form-input-field input[type="password"] {
+  font-size: 16px;
+  padding: 0;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/* line 42, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper form .form-input-field input[type="text"]:focus,
+.authentication-form .form-wrapper form .form-input-field input[type="password"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* line 46, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper form .form-input-field input[type="text"]::placeholder,
+.authentication-form .form-wrapper form .form-input-field input[type="password"]::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 53, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper .authentication-btn, .authentication-form .form-wrapper .form-link .google-btn {
+  font-size: 16px;
+  background-color: #db4444;
+  padding: 16px 0;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: none;
+  border-radius: 4px;
+}
+
+/* line 71, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper .form-link .google-btn {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+/* line 77, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper .form-link .login-link {
+  margin-top: 32px;
+}
+
+/* line 79, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper .form-link .login-link p.login-text {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 83, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper .form-link .login-link p.login-text a.login-button {
+  margin-left: 1rem;
+  text-underline-offset: 9px;
+  text-decoration-color: #d9d9d9;
+}
+
+/* line 88, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+.authentication-form .form-wrapper .form-link .login-link p.login-text a.login-button:hover {
+  color: #000000;
+  text-decoration-color: #000000;
+}
+
+@media (max-width: 991px) {
+  /* line 100, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+  .authentication-form {
+    padding: 0;
+  }
+  /* line 102, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+  .authentication-form .form-left-side-img {
+    display: none;
+  }
 }
 
 /* line 4, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
