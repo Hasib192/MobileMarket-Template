@@ -4,6 +4,9 @@
 .authentication-form {
   padding-top: 60px;
   padding-bottom: 140px;
+  .authentication-column-height {
+    height: 781px;
+  }
   .form-left-side-img {
     background-image: url("../images/authentication-side-image.jpg");
     background-repeat: no-repeat;
@@ -13,7 +16,7 @@
     height: 100%;
   }
   .form-wrapper {
-    padding: 125.5px 0;
+    // padding: 125.5px 0;
     width: 370px;
     h4.authentication-title {
       @extend .inter-medium;
