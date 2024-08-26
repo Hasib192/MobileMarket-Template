@@ -423,7 +423,7 @@ p {
 
 /* line 28, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-regular, .header .top-section, .header nav .menu, .header nav .search-bar input, .header nav .user-action a.user-action-item .circular-badge, .footer .promotion-container p, .footer .promotion-container .input-container input[type="text"], .footer .footer-info p, .footer .footer-menu ul li, .copyright-section .copyright-text, .authentication-form .form-wrapper p.authentication-subtitle, .authentication-form .form-wrapper form .form-input-field input[type="text"],
-.authentication-form .form-wrapper form .form-input-field input[type="password"], .authentication-form .form-wrapper .form-link .login-link p.login-text, .login-link .forgot-pass, .services-info .text-container p {
+.authentication-form .form-wrapper form .form-input-field input[type="password"], .authentication-form .form-wrapper .form-link .login-link p.login-text, .login-link .forgot-pass, .hero-section .categories-menu, .services-info .text-container p {
   font-family: "Poppins", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -1035,8 +1035,7 @@ p {
   grid-template-rows: 0fr 0fr;
   gap: 4px 8px;
   grid-auto-flow: row;
-  grid-template-areas: "qr-container google-play-icon-container "
- "qr-container app-store-icon-container";
+  grid-template-areas: "qr-container google-play-icon-container " "qr-container app-store-icon-container";
 }
 
 /* line 142, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
@@ -1237,12 +1236,81 @@ p {
   }
 }
 
-/* line 4, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 5, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.hero-section {
+  padding-bottom: 140px;
+}
+
+/* line 9, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.hero-section .categories-menu {
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+/* line 14, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.hero-section .categories-menu .categories-menu-item {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 23, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.hero-section .categories-menu .categories-menu-item .arrow {
+  transition: transform 0.3s ease;
+  font-size: 13px;
+  opacity: 0;
+}
+
+/* line 28, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.hero-section .categories-menu .categories-menu-item:hover .arrow {
+  opacity: 1;
+  transform: translateX(5px);
+}
+
+/* line 35, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.hero-section .separator {
+  width: 1px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 41, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.hero-section #heroSectionCarousel {
+  margin-top: 40px;
+}
+
+/* line 45, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.hero-section #heroSectionCarousel #heroSectionCarouselIndicators .carousel-indicators {
+  align-items: center;
+}
+
+/* line 48, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.hero-section #heroSectionCarousel #heroSectionCarouselIndicators .carousel-indicators button {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin: 0 6px;
+  border: none;
+}
+
+/* line 55, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.hero-section #heroSectionCarousel #heroSectionCarouselIndicators .carousel-indicators button.active {
+  height: 10px;
+  width: 10px;
+  border: 4px solid #fff;
+  background-color: #db4444;
+}
+
+/* line 67, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info {
   padding: 140px 0;
 }
 
-/* line 6, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 69, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .svg-container {
   width: 80px;
   height: 80px;
@@ -1250,7 +1318,7 @@ p {
   position: relative;
 }
 
-/* line 11, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 74, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .svg-container::before {
   content: "";
   width: 54px;
@@ -1261,19 +1329,19 @@ p {
   border-radius: 50%;
 }
 
-/* line 20, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 83, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .svg-container svg {
   color: #fafafa;
   z-index: 99;
 }
 
-/* line 25, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 88, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .text-container {
   margin-top: 24px;
   color: #000;
 }
 
-/* line 28, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 91, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .text-container h3 {
   font-size: 20px;
   text-transform: uppercase;
@@ -1281,14 +1349,14 @@ p {
   margin-bottom: 8px;
 }
 
-/* line 35, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 98, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .text-container p {
   font-size: 14px;
   margin: 0;
 }
 
 @media (max-width: 992px) {
-  /* line 45, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+  /* line 108, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
   .services-info .services-info-container {
     margin-bottom: 1.5rem;
   }
