@@ -64,6 +64,42 @@
   }
 }
 
+.category-section {
+  padding: 40px 0 70px;
+
+  .category-slider {
+    column-gap: 30px;
+    overflow: hidden;
+
+    .card {
+      width: 100%;
+      padding: 25px 0;
+      border: 1px solid rgba($color: #000000, $alpha: 0.3);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+
+      &:hover {
+        background-color: $brand-color;
+        color: $white-color;
+        border-color: transparent;
+        img {
+          filter: invert(100%);
+        }
+      }
+
+      img {
+        height: 54px;
+      }
+
+      p {
+        @extend .poppins-regular;
+        // font-size: 16px;
+      }
+    }
+  }
+}
+
 .services-info {
   padding: 140px 0;
   .svg-container {

@@ -7,7 +7,7 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-/* line 11, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 11, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -20,7 +20,7 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 23, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 body {
   margin: 0;
 }
@@ -28,7 +28,7 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 31, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 31, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 main {
   display: block;
 }
@@ -37,7 +37,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 40, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 40, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -49,7 +49,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 53, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 53, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -63,7 +63,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 64, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 64, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -76,7 +76,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 76, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 76, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 a {
   background-color: transparent;
 }
@@ -85,7 +85,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 85, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 85, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -98,7 +98,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 95, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 95, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 b,
 strong {
   font-weight: bolder;
@@ -108,7 +108,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 105, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 105, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 code,
 kbd,
 samp {
@@ -121,7 +121,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 116, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 116, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -130,7 +130,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 125, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 125, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -139,12 +139,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 133, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 133, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 137, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 137, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 sup {
   top: -0.5em;
 }
@@ -154,7 +154,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 148, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 148, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 img {
   border-style: none;
 }
@@ -165,7 +165,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 160, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 160, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 button,
 input,
 optgroup,
@@ -185,7 +185,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 176, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 176, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -196,7 +196,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 186, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 186, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -206,7 +206,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 195, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 195, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -217,7 +217,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 206, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 206, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -229,7 +229,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 218, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 218, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -240,7 +240,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 229, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 229, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -251,7 +251,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 240, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 240, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -270,7 +270,7 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 253, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 253, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 progress {
   vertical-align: baseline;
 }
@@ -278,7 +278,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 261, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 261, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -287,7 +287,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 270, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 270, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -299,7 +299,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 280, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 280, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -309,7 +309,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 290, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 290, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -320,7 +320,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 299, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 299, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -329,7 +329,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 308, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 308, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -342,7 +342,7 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 320, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 320, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 details {
   display: block;
 }
@@ -350,7 +350,7 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-/* line 328, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 328, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 summary {
   display: list-item;
 }
@@ -360,7 +360,7 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 339, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 339, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 template {
   display: none;
 }
@@ -368,7 +368,7 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-/* line 347, ../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
+/* line 347, ../../../Desktop/MobileMarket-Template/assets/sass/vendors/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -376,7 +376,7 @@ template {
 /**
  * Set up a decent box model on the root element
  */
-/* line 8, ../../Desktop/MobileMarket-Template/assets/sass/base/_base.scss */
+/* line 8, ../../../Desktop/MobileMarket-Template/assets/sass/base/_base.scss */
 html {
   box-sizing: border-box;
 }
@@ -387,147 +387,147 @@ html {
  * making all elements inheriting from the root box-sizing value
  * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
  */
-/* line 18, ../../Desktop/MobileMarket-Template/assets/sass/base/_base.scss */
+/* line 18, ../../../Desktop/MobileMarket-Template/assets/sass/base/_base.scss */
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
 
-/* line 24, ../../Desktop/MobileMarket-Template/assets/sass/base/_base.scss */
+/* line 24, ../../../Desktop/MobileMarket-Template/assets/sass/base/_base.scss */
 p {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 10, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 10, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-thin {
   font-family: "Poppins", system-ui;
   font-weight: 100;
   font-style: normal;
 }
 
-/* line 16, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 16, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-extralight {
   font-family: "Poppins", system-ui;
   font-weight: 200;
   font-style: normal;
 }
 
-/* line 22, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 22, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-light {
   font-family: "Poppins", system-ui;
   font-weight: 300;
   font-style: normal;
 }
 
-/* line 28, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 28, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-regular, .header .top-section, .header nav .menu, .header nav .search-bar input, .header nav .user-action a.user-action-item .circular-badge, .footer .promotion-container p, .footer .promotion-container .input-container input[type="text"], .footer .footer-info p, .footer .footer-menu ul li, .copyright-section .copyright-text, .authentication-form .form-wrapper p.authentication-subtitle, .authentication-form .form-wrapper form .form-input-field input[type="text"],
-.authentication-form .form-wrapper form .form-input-field input[type="password"], .authentication-form .form-wrapper .form-link .login-link p.login-text, .login-link .forgot-pass, .hero-section .categories-menu, .services-info .text-container p {
+.authentication-form .form-wrapper form .form-input-field input[type="password"], .authentication-form .form-wrapper .form-link .login-link p.login-text, .login-link .forgot-pass, .hero-section .categories-menu, .category-section .category-slider .card p, .services-info .text-container p {
   font-family: "Poppins", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-/* line 34, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 34, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-medium, .footer .newsletter-container a, .footer h3, .footer .footer-links p, .authentication-form .form-wrapper .authentication-btn, .authentication-form .form-wrapper .form-link .google-btn, .authentication-form .form-wrapper .form-link .login-link p.login-text a.login-button {
   font-family: "Poppins", system-ui;
   font-weight: 500;
   font-style: normal;
 }
 
-/* line 40, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
-.poppins-semibold, .header .top-section .heading-section p a, .services-info .text-container h3 {
+/* line 40, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+.poppins-semibold, .header .top-section .heading-section p a, .section-top .section-heading p, .services-info .text-container h3 {
   font-family: "Poppins", system-ui;
   font-weight: 600;
   font-style: normal;
 }
 
-/* line 46, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 46, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-bold {
   font-family: "Poppins", system-ui;
   font-weight: 700;
   font-style: normal;
 }
 
-/* line 52, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 52, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-extrabold {
   font-family: "Poppins", system-ui;
   font-weight: 800;
   font-style: normal;
 }
 
-/* line 58, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 58, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-black {
   font-family: "Poppins", system-ui;
   font-weight: 900;
   font-style: normal;
 }
 
-/* line 64, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 64, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-thin-italic {
   font-family: "Poppins", system-ui;
   font-weight: 100;
   font-style: italic;
 }
 
-/* line 70, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 70, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-extralight-italic {
   font-family: "Poppins", system-ui;
   font-weight: 200;
   font-style: italic;
 }
 
-/* line 76, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 76, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-light-italic {
   font-family: "Poppins", system-ui;
   font-weight: 300;
   font-style: italic;
 }
 
-/* line 82, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 82, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-regular-italic {
   font-family: "Poppins", system-ui;
   font-weight: 400;
   font-style: italic;
 }
 
-/* line 88, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 88, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-medium-italic {
   font-family: "Poppins", system-ui;
   font-weight: 500;
   font-style: italic;
 }
 
-/* line 94, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 94, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-semibold-italic {
   font-family: "Poppins", system-ui;
   font-weight: 600;
   font-style: italic;
 }
 
-/* line 100, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 100, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-bold-italic {
   font-family: "Poppins", system-ui;
   font-weight: 700;
   font-style: italic;
 }
 
-/* line 106, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 106, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-extrabold-italic {
   font-family: "Poppins", system-ui;
   font-weight: 800;
   font-style: italic;
 }
 
-/* line 112, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 112, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-black-italic {
   font-family: "Poppins", system-ui;
   font-weight: 900;
   font-style: italic;
 }
 
-/* line 118, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 118, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-thin {
   font-family: "Inter", sans-serif;
   font-weight: 100;
@@ -535,7 +535,7 @@ p {
   font-style: normal;
 }
 
-/* line 125, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 125, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-extralight {
   font-family: "Inter", sans-serif;
   font-weight: 200;
@@ -543,7 +543,7 @@ p {
   font-style: normal;
 }
 
-/* line 132, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 132, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-light {
   font-family: "Inter", sans-serif;
   font-weight: 300;
@@ -551,7 +551,7 @@ p {
   font-style: normal;
 }
 
-/* line 139, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 139, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-regular {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -559,7 +559,7 @@ p {
   font-style: normal;
 }
 
-/* line 146, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 146, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-medium, .authentication-form .form-wrapper h4.authentication-title {
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -567,15 +567,15 @@ p {
   font-style: normal;
 }
 
-/* line 153, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
-.inter-semibold {
+/* line 153, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+.inter-semibold, .section-top .section-title h2 {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-/* line 160, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 160, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-bold, .logo a {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -583,7 +583,7 @@ p {
   font-style: normal;
 }
 
-/* line 167, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 167, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-extrabold {
   font-family: "Inter", sans-serif;
   font-weight: 800;
@@ -591,7 +591,7 @@ p {
   font-style: normal;
 }
 
-/* line 174, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 174, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-black {
   font-family: "Inter", sans-serif;
   font-weight: 900;
@@ -599,7 +599,7 @@ p {
   font-style: normal;
 }
 
-/* line 181, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 181, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-thin-italic {
   font-family: "Inter", sans-serif;
   font-weight: 100;
@@ -607,7 +607,7 @@ p {
   font-style: italic;
 }
 
-/* line 188, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 188, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-extralight-italic {
   font-family: "Inter", sans-serif;
   font-weight: 200;
@@ -615,7 +615,7 @@ p {
   font-style: italic;
 }
 
-/* line 195, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 195, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-light-italic {
   font-family: "Inter", sans-serif;
   font-weight: 300;
@@ -623,7 +623,7 @@ p {
   font-style: italic;
 }
 
-/* line 202, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 202, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-regular-italic {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -631,7 +631,7 @@ p {
   font-style: italic;
 }
 
-/* line 209, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 209, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-medium-italic {
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -639,7 +639,7 @@ p {
   font-style: italic;
 }
 
-/* line 216, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 216, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-semibold-italic {
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -647,7 +647,7 @@ p {
   font-style: italic;
 }
 
-/* line 223, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 223, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-bold-italic {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -655,7 +655,7 @@ p {
   font-style: italic;
 }
 
-/* line 230, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 230, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-extrabold-italic {
   font-family: "Inter", sans-serif;
   font-weight: 800;
@@ -663,7 +663,7 @@ p {
   font-style: italic;
 }
 
-/* line 237, ../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
+/* line 237, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .inter-black-italic {
   font-family: "Inter", sans-serif;
   font-weight: 900;
@@ -671,24 +671,24 @@ p {
   font-style: italic;
 }
 
-/* line 7, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 7, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header .top-section .heading-section {
   margin: auto;
   padding: 15px;
   font-size: 14px;
 }
 
-/* line 12, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 12, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header .top-section .heading-section p a {
   margin-left: 8px;
 }
 
-/* line 18, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 18, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header .top-section .select-lang {
   display: inline-block;
 }
 
-/* line 20, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 20, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header .top-section .select-lang select {
   font-size: 14px;
   background-color: transparent;
@@ -699,55 +699,55 @@ p {
   padding-right: 1.5rem;
 }
 
-/* line 30, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 30, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header .top-section .select-lang option {
   color: black;
 }
 
-/* line 35, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 35, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav {
   padding: 0;
   margin-top: 40px;
 }
 
-/* line 38, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 38, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .menu {
   font-size: 16px;
   margin: auto;
 }
 
-/* line 42, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 42, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .menu .navbar-nav {
   gap: 48px;
 }
 
-/* line 45, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 45, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .menu a {
   color: #000;
   padding-bottom: 2px;
 }
 
-/* line 49, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 49, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .menu a:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-color: rgba(0, 0, 0, 0.25);
 }
 
-/* line 55, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 55, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .menu .active {
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-color: rgba(0, 0, 0, 0.25);
 }
 
-/* line 61, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 61, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .search-bar {
   position: relative;
   margin-right: 24px;
 }
 
-/* line 64, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 64, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .search-bar input {
   font-size: 12px;
   width: 243px;
@@ -758,7 +758,7 @@ p {
   padding: 7px 20px;
 }
 
-/* line 74, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 74, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .search-bar svg {
   position: absolute;
   right: 12px;
@@ -769,7 +769,7 @@ p {
   width: 24px;
 }
 
-/* line 83, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 83, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .search-bar input[type="search"]::-webkit-search-decoration,
 .header nav .search-bar input[type="search"]::-webkit-search-cancel-button,
 .header nav .search-bar input[type="search"]::-webkit-search-results-button,
@@ -777,14 +777,14 @@ p {
   -webkit-appearance: none;
 }
 
-/* line 90, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 90, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action {
   display: flex;
   position: relative;
   gap: 16px;
 }
 
-/* line 94, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 94, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action a.user-action-item {
   height: 32px;
   width: 32px;
@@ -796,25 +796,25 @@ p {
   border-radius: 100%;
 }
 
-/* line 103, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 103, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action a.user-action-item:hover {
   background-color: #db4444;
   color: #ffffff;
 }
 
-/* line 107, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 107, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action a.user-action-item:hover svg.user-action-svg {
   color: #fff;
 }
 
-/* line 111, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 111, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action a.user-action-item svg.user-action-svg {
   height: 28px;
   width: 28px;
   color: #000000;
 }
 
-/* line 116, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 116, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action a.user-action-item .circular-badge {
   font-size: 12px;
   color: #fff;
@@ -826,7 +826,7 @@ p {
   justify-content: center;
 }
 
-/* line 131, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 131, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action .dropdown-menu {
   top: 101%;
   right: 0;
@@ -835,42 +835,42 @@ p {
   backdrop-filter: blur(10px);
 }
 
-/* line 138, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 138, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action .dropdown-menu[data-bs-popper] {
   left: auto !important;
 }
 
-/* line 141, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 141, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action .dropdown-menu ul {
   padding: 0;
   margin: 0;
 }
 
-/* line 144, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 144, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action .dropdown-menu ul li.user-dropdown-list {
   list-style-type: none;
 }
 
-/* line 146, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 146, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action .dropdown-menu ul li.user-dropdown-list a.dropdown-item {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 150, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 150, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action .dropdown-menu ul li.user-dropdown-list a.user-dropdown-item {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-/* line 155, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 155, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header nav .user-action .dropdown-menu ul li.user-dropdown-list a.user-dropdown-item svg.user-dropdown-svg {
   height: 24px;
   width: 24px;
 }
 
-/* line 165, ../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
+/* line 165, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_header.scss */
 .header .line {
   height: 0.5px;
   width: 100%;
@@ -879,49 +879,49 @@ p {
   margin-top: 16px;
 }
 
-/* line 4, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 4, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer {
   padding-top: 80px;
   padding-bottom: 60px;
   color: #fafafa;
 }
 
-/* line 9, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 9, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .logo {
   margin-bottom: 24px;
 }
 
-/* line 13, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 13, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .newsletter-container {
   margin-bottom: 24px;
 }
 
-/* line 15, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 15, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .newsletter-container a {
   font-size: 20px;
   color: #fafafa !important;
   text-decoration: none;
 }
 
-/* line 20, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 20, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .newsletter-container a:hover {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
-/* line 28, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 28, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .promotion-container p {
   font-size: 16px;
   margin-bottom: 16px;
 }
 
-/* line 33, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 33, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .promotion-container .input-container {
   position: relative;
   margin-bottom: 1rem;
 }
 
-/* line 36, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 36, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .promotion-container .input-container input[type="text"] {
   font-size: 16px;
   padding: 12px 50px 12px 16px;
@@ -932,48 +932,48 @@ p {
   /* do not group these rules */
 }
 
-/* line 47, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 47, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .promotion-container .input-container input[type="text"]::-webkit-input-placeholder {
   color: #fafafa;
   opacity: 0.4;
 }
 
-/* line 51, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 51, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .promotion-container .input-container input[type="text"]:-moz-placeholder {
   /* FF 4-18 */
   color: #fafafa;
   opacity: 1;
 }
 
-/* line 56, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 56, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .promotion-container .input-container input[type="text"]::-moz-placeholder {
   /* FF 19+ */
   color: #fafafa;
   opacity: 1;
 }
 
-/* line 61, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 61, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .promotion-container .input-container input[type="text"]:-ms-input-placeholder {
   /* IE 10+ */
   color: #fafafa;
   opacity: 0.4;
 }
 
-/* line 66, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 66, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .promotion-container .input-container input[type="text"]::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #fafafa;
   opacity: 0.4;
 }
 
-/* line 71, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 71, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .promotion-container .input-container input[type="text"]::placeholder {
   /* modern browser */
   color: #fafafa;
   opacity: 0.4;
 }
 
-/* line 77, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 77, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .promotion-container .input-container svg {
   position: absolute;
   top: 50%;
@@ -984,42 +984,42 @@ p {
   z-index: 99;
 }
 
-/* line 90, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 90, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer h3 {
   font-size: 20px;
   margin-bottom: 24px;
 }
 
-/* line 97, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 97, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-info p {
   font-size: 16px;
   margin-bottom: 16px;
 }
 
-/* line 105, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 105, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-menu ul {
   padding-left: 0;
 }
 
-/* line 107, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 107, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-menu ul li {
   font-size: 16px;
   list-style: none;
   cursor: pointer;
 }
 
-/* line 112, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 112, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-menu ul li:not(:last-child) {
   margin-bottom: 16px;
 }
 
-/* line 115, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 115, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-menu ul li:hover {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
-/* line 124, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 124, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-links p {
   font-size: 12px;
   color: #fafafa;
@@ -1027,7 +1027,7 @@ p {
   margin-bottom: 8px;
 }
 
-/* line 131, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 131, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-links .app-link-section {
   margin-bottom: 24px;
   display: grid;
@@ -1038,57 +1038,57 @@ p {
   grid-template-areas: "qr-container google-play-icon-container " "qr-container app-store-icon-container";
 }
 
-/* line 142, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 142, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-links .app-link-section .qr-container {
   grid-area: qr-container;
   cursor: pointer;
 }
 
-/* line 147, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 147, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-links .app-link-section .google-play-icon-container {
   grid-area: google-play-icon-container;
   cursor: pointer;
 }
 
-/* line 152, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 152, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-links .app-link-section .app-store-icon-container {
   grid-area: app-store-icon-container;
   cursor: pointer;
 }
 
-/* line 157, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 157, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-links .social-icons-links {
   display: flex;
   gap: 24px;
 }
 
-/* line 160, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 160, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-links .social-icons-links a {
   width: 24px;
   height: 24px;
   cursor: pointer;
 }
 
-/* line 164, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 164, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-links .social-icons-links a svg {
   width: 100%;
   height: 100%;
   transition: 0.2s ease all;
 }
 
-/* line 168, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 168, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .footer .footer-links .social-icons-links a svg:hover {
   color: #db4444;
 }
 
-/* line 178, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 178, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .copyright-section .line {
   height: 1px;
   width: 100%;
   background: rgba(255, 255, 255, 0.5);
 }
 
-/* line 183, ../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
+/* line 183, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
 .copyright-section .copyright-text {
   font-size: 16px;
   padding-top: 16px;
@@ -1096,23 +1096,23 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* line 2, ../../Desktop/MobileMarket-Template/assets/sass/components/_logo.scss */
+/* line 2, ../../../Desktop/MobileMarket-Template/assets/sass/components/_logo.scss */
 .logo a {
   font-size: 24px;
 }
 
-/* line 4, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 4, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form {
   padding-top: 60px;
   padding-bottom: 140px;
 }
 
-/* line 7, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 7, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .authentication-column-height {
   height: 781px;
 }
 
-/* line 10, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 10, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-left-side-img {
   background-image: url("../images/authentication-side-image.jpg");
   background-repeat: no-repeat;
@@ -1122,30 +1122,30 @@ p {
   height: 100%;
 }
 
-/* line 18, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 18, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper {
   width: 370px;
 }
 
-/* line 21, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 21, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper h4.authentication-title {
   font-size: 36px;
   margin-bottom: 24px;
 }
 
-/* line 26, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 26, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper p.authentication-subtitle {
   font-size: 16px;
   margin-bottom: 48px;
 }
 
-/* line 32, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 32, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper form .form-input-field {
   margin-bottom: 40px;
   width: 100%;
 }
 
-/* line 35, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 35, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper form .form-input-field input[type="text"],
 .authentication-form .form-wrapper form .form-input-field input[type="password"] {
   font-size: 16px;
@@ -1156,20 +1156,20 @@ p {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-/* line 45, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 45, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper form .form-input-field input[type="text"]:focus,
 .authentication-form .form-wrapper form .form-input-field input[type="password"]:focus {
   outline: none;
   box-shadow: none;
 }
 
-/* line 49, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 49, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper form .form-input-field input[type="text"]::placeholder,
 .authentication-form .form-wrapper form .form-input-field input[type="password"]::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 56, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 56, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper .authentication-btn, .authentication-form .form-wrapper .form-link .google-btn {
   font-size: 16px;
   background-color: #db4444;
@@ -1186,43 +1186,43 @@ p {
   border-radius: 4px;
 }
 
-/* line 74, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 74, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper .form-link .google-btn {
   background-color: transparent;
   color: #000000;
   border: 1px solid rgba(0, 0, 0, 0.4);
 }
 
-/* line 80, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 80, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper .form-link .login-link {
   margin-top: 32px;
 }
 
-/* line 82, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 82, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper .form-link .login-link p.login-text {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.7);
 }
 
-/* line 86, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 86, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper .form-link .login-link p.login-text a.login-button {
   margin-left: 1rem;
   text-underline-offset: 9px;
   text-decoration-color: #d9d9d9;
 }
 
-/* line 91, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 91, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .authentication-form .form-wrapper .form-link .login-link p.login-text a.login-button:hover {
   color: #000000;
   text-decoration-color: #000000;
 }
 
-/* line 103, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 103, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .login-link .login-btn {
   width: 143px;
 }
 
-/* line 106, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+/* line 106, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
 .login-link .forgot-pass {
   font-size: 16px;
   cursor: pointer;
@@ -1230,24 +1230,53 @@ p {
 }
 
 @media (max-width: 991px) {
-  /* line 116, ../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
+  /* line 116, ../../../Desktop/MobileMarket-Template/assets/sass/components/_authenticationForm.scss */
   .authentication-form .authentication-column-height:first-child {
     height: 0;
   }
 }
 
-/* line 5, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 1, ../../../Desktop/MobileMarket-Template/assets/sass/components/_sectionTop.scss */
+.section-top {
+  margin-bottom: 60px;
+}
+
+/* line 3, ../../../Desktop/MobileMarket-Template/assets/sass/components/_sectionTop.scss */
+.section-top .section-heading {
+  margin-bottom: 20px;
+}
+
+/* line 5, ../../../Desktop/MobileMarket-Template/assets/sass/components/_sectionTop.scss */
+.section-top .section-heading span {
+  width: 20px;
+  height: 40px;
+  background-color: #db4444;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* line 12, ../../../Desktop/MobileMarket-Template/assets/sass/components/_sectionTop.scss */
+.section-top .section-heading p {
+  color: #db4444;
+}
+
+/* line 19, ../../../Desktop/MobileMarket-Template/assets/sass/components/_sectionTop.scss */
+.section-top .section-title h2 {
+  font-size: 36px;
+}
+
+/* line 5, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .hero-section {
   padding-bottom: 140px;
 }
 
-/* line 9, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 9, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .hero-section .categories-menu {
   font-size: 16px;
   margin-top: 40px;
 }
 
-/* line 14, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 14, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .hero-section .categories-menu .categories-menu-item {
   border: none;
   border-radius: 0;
@@ -1258,37 +1287,37 @@ p {
   align-items: center;
 }
 
-/* line 23, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 23, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .hero-section .categories-menu .categories-menu-item .arrow {
   transition: transform 0.3s ease;
   font-size: 13px;
   opacity: 0;
 }
 
-/* line 28, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 28, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .hero-section .categories-menu .categories-menu-item:hover .arrow {
   opacity: 1;
   transform: translateX(5px);
 }
 
-/* line 35, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 35, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .hero-section .separator {
   width: 1px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 41, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 41, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .hero-section #heroSectionCarousel {
   margin-top: 40px;
 }
 
-/* line 45, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 45, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .hero-section #heroSectionCarousel #heroSectionCarouselIndicators .carousel-indicators {
   align-items: center;
 }
 
-/* line 48, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 48, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .hero-section #heroSectionCarousel #heroSectionCarouselIndicators .carousel-indicators button {
   height: 12px;
   width: 12px;
@@ -1297,7 +1326,7 @@ p {
   border: none;
 }
 
-/* line 55, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 55, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .hero-section #heroSectionCarousel #heroSectionCarouselIndicators .carousel-indicators button.active {
   height: 10px;
   width: 10px;
@@ -1305,12 +1334,50 @@ p {
   background-color: #db4444;
 }
 
-/* line 67, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 67, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.category-section {
+  padding: 40px 0 70px;
+}
+
+/* line 70, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.category-section .category-slider {
+  column-gap: 30px;
+  overflow: hidden;
+}
+
+/* line 74, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.category-section .category-slider .card {
+  width: 100%;
+  padding: 25px 0;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* line 82, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.category-section .category-slider .card:hover {
+  background-color: #db4444;
+  color: #fff;
+  border-color: transparent;
+}
+
+/* line 86, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.category-section .category-slider .card:hover img {
+  filter: invert(100%);
+}
+
+/* line 91, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+.category-section .category-slider .card img {
+  height: 54px;
+}
+
+/* line 103, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info {
   padding: 140px 0;
 }
 
-/* line 69, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 105, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .svg-container {
   width: 80px;
   height: 80px;
@@ -1318,7 +1385,7 @@ p {
   position: relative;
 }
 
-/* line 74, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 110, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .svg-container::before {
   content: "";
   width: 54px;
@@ -1329,19 +1396,19 @@ p {
   border-radius: 50%;
 }
 
-/* line 83, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 119, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .svg-container svg {
   color: #fafafa;
   z-index: 99;
 }
 
-/* line 88, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 124, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .text-container {
   margin-top: 24px;
   color: #000;
 }
 
-/* line 91, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 127, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .text-container h3 {
   font-size: 20px;
   text-transform: uppercase;
@@ -1349,14 +1416,14 @@ p {
   margin-bottom: 8px;
 }
 
-/* line 98, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+/* line 134, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .text-container p {
   font-size: 14px;
   margin: 0;
 }
 
 @media (max-width: 992px) {
-  /* line 108, ../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
+  /* line 144, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
   .services-info .services-info-container {
     margin-bottom: 1.5rem;
   }

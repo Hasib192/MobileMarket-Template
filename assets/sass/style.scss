@@ -6,6 +6,7 @@
 // 2. Base stuff
 @import "base/base";
 @import "base/fonts";
+@import "base/variables";
 
 // 3. Layout-related sections
 @import "layout/header";
@@ -14,6 +15,7 @@
 // 4. Components
 @import "components/logo";
 @import "components/authenticationForm";
+@import "components/sectionTop";
 
 // 5. Pages
 @import "pages/home";
