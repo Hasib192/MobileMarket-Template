@@ -1035,7 +1035,8 @@ p {
   grid-template-rows: 0fr 0fr;
   gap: 4px 8px;
   grid-auto-flow: row;
-  grid-template-areas: "qr-container google-play-icon-container " "qr-container app-store-icon-container";
+  grid-template-areas: "qr-container google-play-icon-container "
+ "qr-container app-store-icon-container";
 }
 
 /* line 142, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
@@ -1339,53 +1340,10 @@ p {
   padding: 40px 0 70px;
 }
 
-/* line 71, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
-.category-section .nav-buttons .btn-nav {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  border-color: transparent;
-  background-color: #f5f5f5;
-}
-
-/* line 81, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
-.category-section .category-slider .swiper-wrapper {
-  box-sizing: border-box;
-}
-
-/* line 84, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
-.category-section .category-slider .swiper-wrapper .card {
-  padding: 25px 0;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-/* line 92, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
-.category-section .category-slider .swiper-wrapper .card:hover {
-  background-color: #db4444;
-  color: #fff;
-  border-color: transparent;
-}
-
-/* line 97, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
-.category-section .category-slider .swiper-wrapper .card:hover img {
-  filter: invert(100%);
-}
-
-/* line 102, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
-.category-section .category-slider .swiper-wrapper .card img {
-  height: 54px;
-  width: 100%;
-}
-
-/* line 116, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info {
   padding: 140px 0;
 }
 
-/* line 118, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .svg-container {
   width: 80px;
   height: 80px;
@@ -1393,7 +1351,6 @@ p {
   position: relative;
 }
 
-/* line 123, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .svg-container::before {
   content: "";
   width: 54px;
@@ -1404,19 +1361,16 @@ p {
   border-radius: 50%;
 }
 
-/* line 132, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .svg-container svg {
   color: #fafafa;
   z-index: 99;
 }
 
-/* line 137, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .text-container {
   margin-top: 24px;
   color: #000;
 }
 
-/* line 140, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .text-container h3 {
   font-size: 20px;
   text-transform: uppercase;
@@ -1424,14 +1378,12 @@ p {
   margin-bottom: 8px;
 }
 
-/* line 147, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .text-container p {
   font-size: 14px;
   margin: 0;
 }
 
 @media (max-width: 992px) {
-  /* line 157, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
   .services-info .services-info-container {
     margin-bottom: 1.5rem;
   }
