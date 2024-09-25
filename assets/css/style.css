@@ -423,7 +423,7 @@ p {
 
 /* line 28, ../../../Desktop/MobileMarket-Template/assets/sass/base/_fonts.scss */
 .poppins-regular, .header .top-section, .header nav .menu, .header nav .search-bar input, .header nav .user-action a.user-action-item .circular-badge, .footer .promotion-container p, .footer .promotion-container .input-container input[type="text"], .footer .footer-info p, .footer .footer-menu ul li, .copyright-section .copyright-text, .authentication-form .form-wrapper p.authentication-subtitle, .authentication-form .form-wrapper form .form-input-field input[type="text"],
-.authentication-form .form-wrapper form .form-input-field input[type="password"], .authentication-form .form-wrapper .form-link .login-link p.login-text, .login-link .forgot-pass, .hero-section .categories-menu, .category-section .category-slider .card p, .services-info .text-container p {
+.authentication-form .form-wrapper form .form-input-field input[type="password"], .authentication-form .form-wrapper .form-link .login-link p.login-text, .login-link .forgot-pass, .hero-section .categories-menu, .category-section .category-slider .swiper-wrapper .card p, .services-info .text-container p {
   font-family: "Poppins", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -1035,7 +1035,8 @@ p {
   grid-template-rows: 0fr 0fr;
   gap: 4px 8px;
   grid-auto-flow: row;
-  grid-template-areas: "qr-container google-play-icon-container " "qr-container app-store-icon-container";
+  grid-template-areas: "qr-container google-play-icon-container "
+ "qr-container app-store-icon-container";
 }
 
 /* line 142, ../../../Desktop/MobileMarket-Template/assets/sass/layout/_footer.scss */
@@ -1339,41 +1340,10 @@ p {
   padding: 40px 0 70px;
 }
 
-/* line 71, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
-.category-section .category-slider .card {
-  width: 100%;
-  padding: 25px 0;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  margin-right: 30px;
-}
-
-/* line 80, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
-.category-section .category-slider .card:hover {
-  background-color: #db4444;
-  color: #fff;
-  border-color: transparent;
-}
-
-/* line 84, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
-.category-section .category-slider .card:hover img {
-  filter: invert(100%);
-}
-
-/* line 89, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
-.category-section .category-slider .card img {
-  height: 54px;
-  width: 100%;
-}
-
-/* line 102, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info {
   padding: 140px 0;
 }
 
-/* line 104, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .svg-container {
   width: 80px;
   height: 80px;
@@ -1381,7 +1351,6 @@ p {
   position: relative;
 }
 
-/* line 109, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .svg-container::before {
   content: "";
   width: 54px;
@@ -1392,19 +1361,16 @@ p {
   border-radius: 50%;
 }
 
-/* line 118, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .svg-container svg {
   color: #fafafa;
   z-index: 99;
 }
 
-/* line 123, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .text-container {
   margin-top: 24px;
   color: #000;
 }
 
-/* line 126, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .text-container h3 {
   font-size: 20px;
   text-transform: uppercase;
@@ -1412,14 +1378,12 @@ p {
   margin-bottom: 8px;
 }
 
-/* line 133, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
 .services-info .text-container p {
   font-size: 14px;
   margin: 0;
 }
 
 @media (max-width: 992px) {
-  /* line 143, ../../../Desktop/MobileMarket-Template/assets/sass/pages/_home.scss */
   .services-info .services-info-container {
     margin-bottom: 1.5rem;
   }
