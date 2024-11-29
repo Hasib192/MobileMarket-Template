@@ -3,46 +3,27 @@
 // -----------------------------------------------------------------------------
 .footer {
   padding-top: 80px;
-  padding-bottom: 60px;
+  // padding-bottom: 60px;
   color: #fafafa;
 
-  .logo {
-    margin-bottom: 24px;
+  .logo a {
+    font-size: 24px;
   }
 
-  .newsletter-container {
-    margin-bottom: 24px;
+  .subscribe {
     a {
-      @extend .poppins-medium;
       font-size: 20px;
-      color: #fafafa !important;
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-        text-underline-offset: 2px;
-      }
     }
   }
 
-  .promotion-container {
-    p {
-      @extend .poppins-regular;
-      font-size: 16px;
-      margin-bottom: 16px;
-    }
+  .promotion {
     .input-container {
-      position: relative;
-      margin-bottom: 1rem;
+      // width: 217px;
       input[type="text"] {
-        @extend .poppins-regular;
-        font-size: 16px;
-        // width: 217px;
         padding: 12px 50px 12px 16px;
-        background: transparent;
-        color: #fafafa;
         border: 1.5px solid #fafafa;
         border-radius: 4px;
-        //   outline: none;
+        /* The below CSS is for placeholder 40% and browser support */
         /* do not group these rules */
         &::-webkit-input-placeholder {
           color: #fafafa;
@@ -74,14 +55,8 @@
           opacity: 0.4;
         }
       }
-      svg {
-        position: absolute;
-        top: 50%;
-        right: 17px;
-        transform: translateY(-50%);
-        color: #fafafa;
-        cursor: pointer;
-        z-index: 99;
+      span {
+        right: 15px !important;
       }
     }
   }
@@ -95,20 +70,13 @@
 
   .footer-info {
     p {
-      @extend .poppins-regular;
-      font-size: 16px;
       margin-bottom: 16px;
     }
   }
 
   .footer-menu {
     ul {
-      padding-left: 0;
       li {
-        @extend .poppins-regular;
-        font-size: 16px;
-        list-style: none;
-        cursor: pointer;
         &:not(:last-child) {
           margin-bottom: 16px;
         }
@@ -122,14 +90,11 @@
 
   .footer-links {
     p {
-      @extend .poppins-medium;
       font-size: 12px;
       color: #fafafa;
       opacity: 0.7;
-      margin-bottom: 8px;
     }
     .app-link-section {
-      margin-bottom: 24px;
       display: grid;
       grid-template-columns: 0fr 0fr;
       grid-template-rows: 0fr 0fr;
@@ -141,22 +106,17 @@
 
       .qr-container {
         grid-area: qr-container;
-        cursor: pointer;
       }
 
       .google-play-icon-container {
         grid-area: google-play-icon-container;
-        cursor: pointer;
       }
 
       .app-store-icon-container {
         grid-area: app-store-icon-container;
-        cursor: pointer;
       }
     }
     .social-icons-links {
-      display: flex;
-      gap: 24px;
       a {
         width: 24px;
         height: 24px;
@@ -172,19 +132,15 @@
       }
     }
   }
-}
-
-.copyright-section {
-  .line {
-    height: 1px;
-    width: 100%;
-    background: rgba($color: #ffffff, $alpha: 0.5);
-  }
-  .copyright-text {
-    @extend .poppins-regular;
-    font-size: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    color: rgba($color: #ffffff, $alpha: 0.6);
+  .copyright-section {
+    .line {
+      height: 1px;
+      width: 100%;
+      margin-top: 60px;
+      background: rgba($color: $white-color, $alpha: 0.5);
+    }
+    .copyright-text {
+      color: rgba($color: $white-color, $alpha: 0.6);
+    }
   }
 }

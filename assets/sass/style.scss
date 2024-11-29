@@ -1,21 +1,17 @@
 @charset "UTF-8";
 
-// 1. Vendors
-@import "vendors/normalize";
-
-// 2. Base stuff
+// Base stuff
 @import "base/base";
 @import "base/fonts";
 @import "base/variables";
 
-// 3. Layout-related sections
+// Layout-related sections
 @import "layout/header";
 @import "layout/footer";
 
-// 4. Components
-@import "components/logo";
+// Components
 @import "components/authenticationForm";
 @import "components/sectionTop";
 
-// 5. Pages
+// Pages
 @import "pages/home";
